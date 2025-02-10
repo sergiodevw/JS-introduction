@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0A192F;  /* Azul oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background: #112240; /* Azul intermedio */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    color: #ffffff;
+}
+
+/* Título */
+h1 {
+    background-color: #0A192F;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;  
+}
+
+/* Input de número */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #007bff; /* Azul brillante */
+    border-radius: 5px;
+    background-color: #0A192F;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Botón de calcular */
+button {
+    background: #007bff; /* Azul brillante */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3; /* Azul más oscuro */
+}
+
+/* Mensaje de resultado */
+p {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #00d4ff; /* Azul celeste */
+}

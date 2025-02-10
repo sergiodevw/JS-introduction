@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pares e Impares</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Clasificador de Números</h1>
+        <p>Ingresa números separados por comas (Ej: 3, 6, 9, 12, 15):</p>
+        <input type="text" id="numerosInput" placeholder="Ej: 3, 6, 9, 12, 15">
+        <button onclick="clasificarNumeros()">Clasificar</button>
+
+        <div class="resultado">
+            <h2>Números Pares</h2>
+            <p id="pares"></p>
+            <h2>Números Impares</h2>
+            <p id="impares"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
